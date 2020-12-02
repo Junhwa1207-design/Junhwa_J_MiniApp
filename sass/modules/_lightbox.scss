@@ -1,0 +1,21 @@
+.lightbox {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 400px;
+  width: 50%;
+  height: 100vh; // might need to be 100%
+  color: white;
+  background-color: rgba(12, 12, 12, 0.8);
+  display: none;
+
+  span {
+    float: right;
+    font-size: 0.5em;
+    cursor: pointer;
+    padding: 1em;
+  }
+}
+//turn the lightbox on when we have some content to show
+.show-lightbox {
+  display: block;
+}
