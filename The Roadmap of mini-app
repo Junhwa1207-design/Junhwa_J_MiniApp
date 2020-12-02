@@ -1,0 +1,16 @@
+The Roadmap of Mini-App
+
+========================
+
+This is the mini-app that used SASS, VUE, AJAX, database, and Fetch to create a dynamic one-page. When it opens the app, it shows three mini cooper cars up and also emits each database about information once it clicks button. Now, it used a "this.$emit methods" with vue.js, but I think it needs to try a lightbox for more specific information include images.
+
+•	Create a database, and an AJAX request for the data using the Fetch API.
+•	Using SASS for images, buttons and mediaqueries.
+•	Generate components that is each mini cooper’s information with Vue.js;
+emit car price and description once it clicks.
+•	It needs to try a lightbox for more specific information like image info inside the lightbox.
+
+
+
+ 
+	
