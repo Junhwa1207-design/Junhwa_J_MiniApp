@@ -1,0 +1,225 @@
+@media screen and (min-width: 375px) {
+  body {
+    width: 100%;
+    background-color: #0895fa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  body .main-nav {
+    display: none;
+  }
+  body .logo {
+    margin-top: 8%;
+    margin-left: 34%;
+  }
+  body video {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    background-color: #5397c7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  body .main-nav {
+    width: 80%;
+    display: flex;
+  }
+  body .main-nav ul {
+    width: 80%;
+  }
+  body .main-nav li {
+    padding-left: 10px;
+  }
+  body .logo {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  body video {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1020px) {
+  body {
+    width: 100%;
+    background-color: #70818d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+  body .main-nav {
+    width: 70%;
+    display: flex;
+  }
+  body .main-nav ul {
+    width: 70%;
+    margin-left: 9%;
+  }
+  body .main-nav li {
+    padding-left: 20px;
+  }
+  body .logo {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  body video {
+    width: 100%;
+  }
+}
+/* css comments work too */
+.body {
+  margin: 0;
+  border: 0;
+}
+
+.bio-data {
+  display: block;
+}
+
+.show-bio {
+  display: block !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  margin: 10%;
+}
+
+.remove-cooper {
+  padding: 8px 12px;
+  background-color: #242324;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  width: 17%;
+  font-size: 0.4em;
+  margin-left: 20%;
+}
+.remove-cooper:hover {
+  background-color: #f75555;
+}
+
+.miniCooper-button-modifier {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 5em;
+}
+
+.explain {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+#app {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#app ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#app ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  list-style-type: none;
+  color: white;
+  margin-left: 30%;
+}
+#app ul li .car img {
+  text-decoration: none;
+  width: 300px;
+  height: 150px;
+  margin: 0px;
+}
+
+.header {
+  flex-direction: row;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+.header main-nav {
+  flex-direction: row;
+  display: flex;
+  text-decoration: none;
+}
+.header ul {
+  flex-direction: row;
+  display: flex;
+  text-decoration: none;
+  margin-top: 7%;
+  width: 40%;
+}
+.header li {
+  text-decoration: none;
+  list-style: none;
+}
+.header a {
+  color: #0e0d0d;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.logo {
+  margin-left: 10%;
+  color: white;
+}
+
+.lightbox {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 400px;
+  width: 50%;
+  height: 100vh;
+  color: white;
+  background-color: rgba(12, 12, 12, 0.8);
+  display: none;
+}
+.lightbox span {
+  float: right;
+  font-size: 0.5em;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.show-lightbox {
+  display: block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+/*# sourceMappingURL=master.css.map */
