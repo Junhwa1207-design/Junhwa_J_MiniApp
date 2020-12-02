@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"4.9.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_miniCooper"},
+{"type":"table","name":"miniCooper","database":"db_miniCooper","data":
+[
+{"id":"1","name":"MINI COOPER S","price":"$30,756","description":"EXPRESSIVE COLORS.\r\nColour is a matter of individual taste, but with a wide spectrum of tones to choose from, there’s something for everyone. Whether you go bold and bright with Solaris Orange or keep it subtle and sleek with Moonwalk Grey, you’re sure to make a striking statement of your personal style.\r\n","image":"cooperRed.png"},
+{"id":"2","name":"COOPER SE 3 DOOR","price":" $42,956","description":"MINI UNION JACK LED TAILLIGHTS.\r\nThe reimagined MINI Union Jack LED taillights, available as an option, do more than just catch your eye; they emit a brighter, clearer light that is more energy-efficient than ever. Surrounded by a striking chrome frame or Piano Black for a sporty twist, they’re the perfect finishing touch to the MINI 3 door’s tail end.\r\n","image":"cooperGrey.png"},
+{"id":"3","name":"JOHN COOER WORKS","price":"$38,406","description":"HEAD-UP DISPLAY.\r\nGet all the right information you need, right where you want it. The available MINI Head-Up Display projects driving data such as speed and navigation prompts in your direct line of sight, helping you focus your gaze on the road.\r\n","image":"cooperGreen.png"}
+]
+}
+]
